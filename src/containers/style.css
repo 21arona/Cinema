@@ -1,0 +1,265 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("/src/images/backgroundFilm.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.searchInput {
+    display: inline-block;
+    text-align: center;
+}
+
+.searchContainer {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    /* Largeur de la barre de défilement */
+}
+
+/* Piste de défilement */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Couleur de fond de la piste de défilement */
+}
+
+/* Curseur de défilement */
+::-webkit-scrollbar-thumb {
+    background: #004ec4;
+    /* Couleur du curseur de défilement */
+}
+
+/* Curseur de défilement au survol */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Couleur du curseur de défilement au survol */
+}
+
+
+
+
+
+
+
+
+
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url("../images/background01.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.films {
+    margin-bottom: 10px;
+    background: url("../images/background3.jpg") no-repeat center center fixed;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    list-style-type: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+.searchInput input {
+    width: 50vw;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #888;
+    text-align: center;
+}
+
+body {
+    background-image: url(../images/background01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-style: italic;
+}
+
+
+#root h1 {
+    color: wheat;
+}
+
+#root p {
+    color: wheat;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#root p:nth-child(2) {
+    color: rgb(110, 110, 199);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+
+#root p:nth-child(3) {
+    color: wheat
+}
+
+#root p:last-of-type {
+    color: wheat;
+}
+
+#root button {
+    margin: 10px;
+    bottom: 0;
+    font-style: italic;
+    color: wheat;
+    background-color: rgb(43, 43, 47);
+    border-radius: 60px;
+}
+
+.sub-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 30%;
+    padding-top: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+
+.imgs {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.container-image {
+    background-color: rgb(255, 255, 255);
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 115px;
+    width: 115px;
+}
+
+.profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 130px;
+}
+
+.main input {
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+.email {
+    font-size: 25px;
+    position: absolute;
+    padding: 10px 0 0 25px;
+}
+
+.name {
+    padding-left: 70px;
+    font-size: 20px;
+}
+
+.second-input {
+    padding-top: 20px;
+}
+
+.user-icon {
+    display: inline-block;
+    font-size: 60px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    border-radius: 70px;
+    background-color: #b103fc;
+    color: white;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+}
+
+.login-button {
+    padding-top: 25px;
+    margin-left: 60px;
+}
+
+.link {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+a {
+    color: blue;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+
+}
+
+.details {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.details>h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.details h2 {
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.description {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.mybutton {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.mybutton:hover {
+    background-color: #0056b3;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
